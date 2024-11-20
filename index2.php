@@ -5,9 +5,9 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="tible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
-  <meta name="author" content="">
 
   <title>Aplikasi Pengaduan Masyarakat - Login</title>
 
@@ -20,49 +20,41 @@
 
 </head>
 
-<body class="bg-gradient-light">
+<body class="bg-gradient-dark">
 
   <div class="container">
 
     <!-- Outer Row -->
     <div class="row justify-content-center">
 
-      <div class="col-xl-5 col-lg-6 col-md-9">
+      <div class="col-xl-6 col-lg-5 col-md-9">
 
-        <div class="card o-hidden border-0 shadow-lg my-5">
+        <div class="card o-hidden border-0 shadow-lg my-5 bg-gradient-light">
           <div class="card-body p-0">
             <!-- Nested Row within Card Body -->
             <div class="row">
               <div class="col-lg-12">
                 <div class="p-5">
                   <div class="text-center">
-                   <h1 class="h4 text-gray-900 mb-4">Silakan Login <br>Sebagai Masyarakat</h1>
+                    <h1 class="h4 text-gray-900 mb-4">Selamat datang di aplikasi pengaduan masyarakat<br>
+login Sebagai admin/petugas</h1>
                   </div>
-                  <form method="post" action="proses-login.php" class="user">
+                  <form class="user" method="post" action="proses-login2.php">
                     <div class="form-group">
-                      <input name="nik" type="text" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Masukan NIK Anda..." required>
+                      <input name="username"type="text" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Masukan Usename Anda..." required>
                     </div>
                     <div class="form-group">
-                      <input name="password" type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Masukan Password Anda..." required>
+                      <input name="password" type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder=" Masukan Password" required>
                     </div>
-                    <div class="form-group">          
                     <button type="submit" class="btn btn-primary btn-user btn-block">
                       Login
                     </button>
-                    </a>
                     <hr>
-                    <a href="register.php" class="btn btn-info btn-user btn-block">
-                      <i class="fa fa-laptop fa-fw"></i> Belum Punya Akun...? Silahkan Daftar
+                    <a href="index.php" class="btn btn-success btn-user btn-block">
+                      <i class="fa fa-bug fa-fw"></i> Kembali Ke halaman login masyarakat
                     </a>
-
-     <a href="index2.php" class="btn btn-info btn-user btn-block">
-                      <i class="fa fa-laptop fa-fw"></i> Login Admin /petugas
-                    </a>
-                  <a href="index2.php" class="btn btn-success btn-user btn-block">
-                      <i class="fa fa-file person fa-key"></i> Login Sebagai Admin / Petugas
-                    </a>
+                      
                   </form>
-                  <hr>
                   </div>
                 </div>
               </div>

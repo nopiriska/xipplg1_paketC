@@ -54,11 +54,7 @@
                     <a href="register.php" class="btn btn-info btn-user btn-block">
                       <i class="fa fa-laptop fa-fw"></i> Belum Punya Akun...? Silahkan Daftar
                     </a>
-
-     <a href="index2.php" class="btn btn-info btn-user btn-block">
-                      <i class="fa fa-laptop fa-fw"></i> Login Admin /petugas
-                    </a>
-                  <a href="index2.php" class="btn btn-success btn-user btn-block">
+                      <a href="index2.php" class="btn btn-success btn-user btn-block">
                       <i class="fa fa-file person fa-key"></i> Login Sebagai Admin / Petugas
                     </a>
                   </form>
